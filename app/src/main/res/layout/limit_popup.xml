@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/popLinLayout">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do You Want to continue"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Yes    "
+        android:layout_below="@+id/popLinLayout"
+        android:layout_margin="20dp"
+        android:id="@+id/yes"
+        android:elevation="10dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:id="@+id/no"
+        android:layout_below="@+id/popLinLayout"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:elevation="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"/>
+</RelativeLayout>
+

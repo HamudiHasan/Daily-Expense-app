@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+    </string-array>
+
+    <string-array name="expanse">
+        <item>Home Rent</item>
+        <item>Transportation</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Family</item>
+        <item>Office</item>
+        <item>Personal</item>
+        <item>Dinner</item>
+        <item>Utility Bill</item>
+        <item>Shopping</item>
+        <item>Food</item>
+        <item>Untold Expanse</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="income">
+        <item>Sallary</item>
+        <item>Sell Item</item>
+        <item>Bounus</item>
+        <item>Bank Interst</item>
+        <item>Discount</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="type">
+        <item>Expanse</item>
+        <item>Income</item>
+        <item>Loan</item>
+
+    </string-array>
+
+    <string-array name="accountType">
+        <item>Private</item>
+        <item>Corporate</item>
+
+    </string-array>
+
+    <string-array name="year">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+
+
+    </string-array>
+</resources>

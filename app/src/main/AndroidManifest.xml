@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blackflag.whereismymoney">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/money"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainScreenActivity"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".activity.AddExpanseActivity"
+            android:parentActivityName=".activity.MainScreenActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blackflag.whereismymoney.activity.MainScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activity.DetailsExpenditureActivity"
+            android:parentActivityName=".activity.MainScreenActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blackflag.whereismymoney.activity.MainScreenActivity" />
+        </activity>
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="my_money.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="4" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.blackflag.whereismymoney.model.BudgetTable,com.blackflag.whereismymoney.model.UserAccount, com.blackflag.whereismymoney.model.ExpanseTable" />
+
+        <activity
+            android:name=".activity.MonthLimitActivity"
+            android:parentActivityName=".activity.MainScreenActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.blackflag.whereismymoney.activity.MainScreenActivity" />
+        </activity>
+        <activity android:name=".activity.UserDeatilsActivity" />
+        <activity android:name=".activity.TowMonthTotalActivity"></activity>
+    </application>
+
+</manifest>

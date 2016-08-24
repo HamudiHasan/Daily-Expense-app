@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:outlineProvider="bounds"
+    android:layout_margin="10dp"
+    android:elevation="10dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:id="@+id/ivStatus"
+        android:src="@drawable/up_arrow"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:elevation="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:id="@+id/tvAmount"
+                android:textColor="#000000"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taka"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:elevation="5dp"
+            android:id="@+id/tvPurpose"
+            android:textSize="18sp"
+            android:text="For Home Rent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:elevation="5dp"
+            android:id="@+id/tvDate"
+            android:textSize="15sp"
+            android:layout_margin="9dp"
+            android:textAlignment="center"
+            android:text="22 July\n2016" />
+    </LinearLayout>
+
+</LinearLayout>

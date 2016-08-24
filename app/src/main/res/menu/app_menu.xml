@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/plus"
+        android:icon="@drawable/circle_add"
+        app:showAsAction="always"
+        >
+    </item>
+
+
+
+    <item
+        android:id="@+id/month_limit"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/btn_plus"
+        android:title="Set Month Limit"/>
+    <item
+        android:id="@+id/details"
+        android:title="Details Expenditure">
+
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout">
+
+    </item>
+    <item
+        android:id="@+id/userDeatils"
+        android:title="User Deatils">
+
+    </item>
+
+    <item
+        android:id="@+id/towMonth"
+        android:title="Tow Month">
+
+    </item>
+</menu>
