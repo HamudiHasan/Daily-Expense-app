@@ -49,6 +49,8 @@ public class DetailsExpenditureActivity extends AppCompatActivity {
         spYear=(Spinner) findViewById(R.id.spYear);
 
 
+
+
         month=new ArrayList<String>();
         month=  Arrays.asList(getResources().getStringArray(R.array.month));
 
